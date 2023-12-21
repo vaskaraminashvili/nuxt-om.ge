@@ -206,6 +206,8 @@
         </div>
       </div>
     </div>
+    <MainSlide />
+
   </div>
 </template>
 
