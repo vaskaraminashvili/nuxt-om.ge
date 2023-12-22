@@ -1,25 +1,12 @@
-<template>
-  <div>
-    tasdas dasd s
-  </div>
-</template>
-
-<script>
-export default {
-  mounted() {
-    const { $hello } = useNuxtApp()
-    console.log($hello('test'));
-  },
-  data() {
-    return {
-      slides: null,
-      config: useRuntimeConfig().public.config
-    }
-  },
-  methods: {
-
-  },
-}
+<script setup>
+const foo = ref({})
+foo.value = fetchProducts()
+console.log(foo);
 </script>
 
-<style lang="scss" scoped></style>
+<template>
+  <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit earum libero quaerat voluptatum fugit exercitationem
+    sint quod vitae? Quo magni fuga aspernatur itaque expedita excepturi omnis voluptatem sequi est?
+  </div>
+</template>

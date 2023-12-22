@@ -212,7 +212,11 @@
 </template>
 
 <script>
+import MainSlide from '~/components/MainSlide.vue';
 export default {
+  components: {
+    MainSlide,
+  },
   mounted() {
     console.log('test');
     $('.test').html('ttt');
