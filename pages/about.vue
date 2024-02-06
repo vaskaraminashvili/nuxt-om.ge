@@ -6,3 +6,7 @@
     </AppAlert>
   </div>
 </template>
+
+<script setup>
+const slides = await fetchProducts();
+</script>
